@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <title>Origem CSS: Externo, Interno e Inline</title>
     <style>
-        /* ... */
+        body {
+            background-color: aquamarine;
+        }
     </style>
+    <!-- a preferência de aplicação do css na página é a ordem que ele foi processaodo no código -->
+    <link rel="stylesheet" href="css/externo.css">
 </head>
+<!-- css dentro da tag tem preferência, porém não é uma boa prática -->
 
-<body>
+<body style="background-color: coral;">
     <h1>E agora?</h1>
 </body>
 
