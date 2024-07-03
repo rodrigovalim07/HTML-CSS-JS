@@ -7,7 +7,52 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-        /* ... */
+        li, ul, div, nav {
+            display: inline-block;
+            margin: 0px;
+        }
+        
+        header {
+            background-color: rgb(70, 70, 70);
+        }
+        
+        body {
+            background-color: rgb(200, 200, 200);
+            margin: 0px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-family: Oswald;
+        }
+
+        nav {
+            border: solid 1px #000;
+            margin-left: 25px;
+        }
+
+        li {
+            border: solid 1px #000;
+            padding: 0px 0px 20px 0px;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        aside {
+            float: right;
+        }
+        
+        li:hover {
+            background-color: skyblue;
+            color: #000;
+        }
+
+        .menu-toggle {
+            display: none;
+        }
     </style>
 </head>
 
@@ -15,7 +60,7 @@
     <header class="cabecalho">
         <div class="logo">
             <a href="#inicio">
-                <img src="http://files.cod3r.com.br/curso-web/logo.png" alt="Logo" />
+                <img src="http://files.cod3r.com.br/curso-web/logo.png" width="265" height="50" alt="Logo" />
             </a>
         </div>
         <button class="menu-toggle">
