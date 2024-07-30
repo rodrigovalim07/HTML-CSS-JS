@@ -14,7 +14,7 @@ function transformacaoCSS() {
 
 function copiarHTML() {
     return gulp.src('src/index.html')
-        .pipe(gulp.dest('build/html'))
+        .pipe(gulp.dest('build'))
 }
 
 exports.default = parallel(transformacaoCSS, copiarHTML)
